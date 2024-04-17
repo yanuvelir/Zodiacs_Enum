@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 import java.time.Month;
 
-public class Main {
+public class Main_Zodiac {
 
     public  static void main(String[] args){
         switch (signsRange()){
@@ -41,7 +41,7 @@ public class Main {
                         return Zodiac_Signs.CAPRICORN;
                 }
             default:
-                return Zodiac_Signs.valueOf("Unable to determine Zodiac sign");
+                return Zodiac_Signs.UNRECOGNIZED;
 
         }
 

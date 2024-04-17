@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Zodiaсs_Enums.iml" filepath="$PROJECT_DIR$/Zodiaсs_Enums.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zodiac_Enum.iml" filepath="$PROJECT_DIR$/Zodiac_Enum.iml" />
     </modules>
   </component>
 </project>
