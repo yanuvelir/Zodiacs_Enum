@@ -4,6 +4,18 @@ import java.time.Month;
 public class Main {
 
     public  static void main(String[] args){
+        switch (signsRange()){
+            case CAPRICORN:
+                System.out.println("Current Zodiac sign is * CAPRICORN *");
+                break;
+
+            case AQUARIUS:
+                System.out.println("Current Zodiac sign is * AQUARIUS *");
+                break;
+
+            default:
+                System.out.println("Unable to determine Zodiac sign");
+        }
 
     }
 
@@ -28,6 +40,8 @@ public class Main {
                     case 11: case 12: case 13: case 14: case 15: case 16: case 17: case 18: case 19:
                         return Zodiac_Signs.CAPRICORN;
                 }
+            default:
+                return Zodiac_Signs.valueOf("Unable to determine Zodiac sign");
 
         }
 
